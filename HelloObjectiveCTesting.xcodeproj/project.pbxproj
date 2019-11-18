@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		21E13C0923792ABE00D7A9B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E13C0823792ABE00D7A9B6 /* main.m */; };
+		21F446E82382388C0023D31E /* LinkedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F446E72382388C0023D31E /* LinkedListItem.m */; };
+		21F446EA2382389B0023D31E /* LinkedListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F446E92382389B0023D31E /* LinkedListManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		21E13C0523792ABE00D7A9B6 /* HelloObjectiveCTesting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloObjectiveCTesting; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E13C0823792ABE00D7A9B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F446E5238238630023D31E /* LinkedListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListItem.h; sourceTree = "<group>"; };
+		21F446E6238238760023D31E /* LinkedListManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListManager.h; sourceTree = "<group>"; };
+		21F446E72382388C0023D31E /* LinkedListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListItem.m; sourceTree = "<group>"; };
+		21F446E92382389B0023D31E /* LinkedListManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				21E13C0823792ABE00D7A9B6 /* main.m */,
+				21F446E5238238630023D31E /* LinkedListItem.h */,
+				21F446E6238238760023D31E /* LinkedListManager.h */,
+				21F446E72382388C0023D31E /* LinkedListItem.m */,
+				21F446E92382389B0023D31E /* LinkedListManager.m */,
 			);
 			path = HelloObjectiveCTesting;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F446EA2382389B0023D31E /* LinkedListManager.m in Sources */,
+				21F446E82382388C0023D31E /* LinkedListItem.m in Sources */,
 				21E13C0923792ABE00D7A9B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
