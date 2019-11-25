@@ -9,12 +9,13 @@
 #ifndef LinkedListItem_h
 #define LinkedListItem_h
 
-@interface LinkedListItem : NSObject {
-    
-}
+@interface LinkedListItem : NSObject
 
 @property int value;
 @property LinkedListItem *next;
+
+-(int) value;
+-(void) setValue:(int)value;
 
 @end
 

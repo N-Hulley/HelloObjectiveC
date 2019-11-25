@@ -10,5 +10,13 @@
 #import "LinkedListItem.h"
 @implementation LinkedListItem
 
+@synthesize value;
+
+-(int) value {
+    return value;
+}
+-(void) setValue:(int)newValue {
+    value = newValue;
+}
 
 @end

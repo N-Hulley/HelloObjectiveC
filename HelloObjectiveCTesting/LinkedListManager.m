@@ -24,7 +24,7 @@ void addItem(LinkedListItem* item, LinkedListManager* manager ){
 
 - (void) add:(int)value {
     LinkedListItem* linkedListItem = [[LinkedListItem alloc] init];
-    linkedListItem.value = value;
+    [linkedListItem setValue:value];
     linkedListItem.next = NULL;
     addItem(linkedListItem, self);
 }
